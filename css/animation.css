@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@-webkit-keyframes color {
+  from {
+    fill: #3791FF;
+  }
+  25% {
+    fill: #9D69F6;
+  }
+  50% {
+    fill: #83C867;
+  }
+  75%{
+    fill:#F2B546;
+  }
+  to{
+    fill: #3791FF;
+  }
+}
+
+@keyframes color {
+  from {
+    fill: #3791FF;
+  }
+  25% {
+    fill: #9D69F6;
+  }
+  50% {
+    fill: #83C867;
+  }
+  75%{
+    fill:#F2B546;
+  }
+  to{
+    fill: #3791FF;
+  }
+}
+
+.color {
+  -webkit-animation-name: color;
+  animation-name: color;
+}
+
+
+@-webkit-keyframes spin-right {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.spin-right {
+  -webkit-animation-name: spin-right;
+  animation-name: spin-right;
+}
+@-webkit-keyframes spin-left {
+  from {
+    fill: #3791FF;
+  }
+  25% {
+    fill: #9D69F6;
+  }
+  50% {
+    fill: #83C867;
+  }
+  75%{
+    fill:#F2B546;
+  }
+  to{
+    fill: #3791FF;
+  }
+}
+
+@keyframes spin-left {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to{
+    transform: rotate(-360deg);
+  }
+}
+
+.spin-left {
+  -webkit-animation-name: spin-left;
+  animation-name: spin-left;
+}
+
+
+@-webkit-keyframes galka {
+
+}
+
+@keyframes galka {
+  from {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+  
+  50%{
+    transform: rotate(270deg);
+    opacity: 0.5;
+  }
+
+  to{
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.galka {
+  -webkit-animation-name: galka;
+  animation-name: galka;
+}
+@-webkit-keyframes galkaoff {
+
+}
+
+@keyframes galkaoff {
+  from {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  
+  50%{
+    transform: rotate(270deg);
+    opacity: 0.5;
+  }
+
+  to{
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+.galkaoff {
+  -webkit-animation-name: galkaoff;
+  animation-name: galkaoff;
+}
+
